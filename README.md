@@ -1,38 +1,23 @@
-# React-shop-cloudfront
+#### [02_serving_spa](https://github.com/rolling-scopes-school/aws/tree/main/aws-developer/02_serving_spa)
 
-This is frontend starter project for nodejs-aws mentoring program. It uses the following technologies:
+## Task 2.1
+- [S3 Bucket](https://sviatynchuk-first-app.s3.us-east-1.amazonaws.com/index.html)
+- [CloudFront](https://d1yxi4zbs9bvsk.cloudfront.net)
 
-- [Vite](https://vitejs.dev/) as a project bundler
-- [React](https://beta.reactjs.org/) as a frontend framework
-- [React-router-dom](https://reactrouterdotcom.fly.dev/) as a routing library
-- [MUI](https://mui.com/) as a UI framework
-- [React-query](https://react-query-v3.tanstack.com/) as a data fetching library
-- [Formik](https://formik.org/) as a form library
-- [Yup](https://github.com/jquense/yup) as a validation schema
-- [Vitest](https://vitest.dev/) as a test runner
-- [MSW](https://mswjs.io/) as an API mocking library
-- [Eslint](https://eslint.org/) as a code linting tool
-- [Prettier](https://prettier.io/) as a code formatting tool
-- [TypeScript](https://www.typescriptlang.org/) as a type checking tool
+## Task 2.2
+- [S3 Bucket (URL shows 403 Access Denied error)](https://mywebappstack-mywebsitebuckete09454eb-m8mt7qtckb6l.s3.eu-west-1.amazonaws.com/index.html)
+- [CloudFront](https://d3a2tnsny767uh.cloudfront.net)
 
-## Available Scripts
+## The workflow
 
-### `start`
+### `npm install`
 
-Starts the project in dev mode with mocked API on local environment.
+### `npm run build`
 
-### `build`
+### `cd my-web-app`
 
-Builds the project for production in `dist` folder.
+### `npm run deploy`
 
-### `preview`
+## Acknowledgements
 
-Starts the project in production mode on local environment.
-
-### `test`, `test:ui`, `test:coverage`
-
-Runs tests in console, in browser or with coverage.
-
-### `lint`, `prettier`
-
-Runs linting and formatting for all files in `src` folder.
+Thank you to the reviewer for your time and feedback! :)
